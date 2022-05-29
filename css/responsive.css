@@ -1,0 +1,166 @@
+@media screen and (max-width: 1200px) {
+	.main-boxes h2 {
+		font-size: 18px;
+	}
+	.coachees-fstRight p {
+	    line-height: 27px;
+	    font-size: 20px;
+	}
+	.coachees-fstRight {
+		width: 43%;
+	}
+	.coached-banner {
+		width: 55%;
+	}
+	.coachingStaffMain {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.section-main {
+	    padding: 90px 15px 30px 15px;
+	}
+	.coaches-Section {
+	    padding: 120px 15px 50px 15px;
+	}
+	.main-boxes {
+		width: 49.5%;
+	}
+	.box1 h1 {
+		font-size: 70px;
+	}
+	.box1 {
+	    padding: 90px 15px 90px 15px;
+	}
+	.main-boxes {
+		margin: 5px 0;
+	}
+	.coachingStaff-block {
+		display: block;
+		height: auto;
+	}
+	.coachingStaff-block img {
+	    height: auto;
+	    width: 100%;
+	}
+	.coachingStaff-block div {
+	    text-align: -webkit-center;
+	    padding: 15px;
+	}
+	.coachingStaff-block div p {
+		padding-top: 15px;
+	}
+	.coachees-fstRight h2 {
+	    font-size: 28px;
+	}
+	.coachees-fstRight h4 {
+	    font-size: 18px;
+	    padding: 10px 0 18px 0;
+	}
+	.coachees-fstRight p {
+	    line-height: 25px;
+	    font-size: 18px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.box1 h1 {
+		font-size: 50px;
+	}
+	.main-boxes h2 {
+	    font-size: 16px;
+	}
+	.main-boxes {
+		margin: 5px 0;
+	}
+	.coachingStaff-block div {
+		padding: 15px 10px;
+		height: 103px;
+	}
+	.coachingStaffMain {
+		display: inline-flex;
+	}
+	.coaches-fstSection {
+		display: block;
+	}
+	.coached-banner {
+	    width: 100%;
+	    height: 400px;
+	}
+	.coachees-fstRight {
+	    width: 100%;
+	    margin-top: 15px;
+	}
+	.superbowl {
+		width: auto;
+	}
+	#vs-mo-menu-icon {
+		display: block;
+	}
+	header ul {
+		position: absolute;
+	    left: 0;
+	    bottom: -200%;
+	    width: 100%;
+	    background-color: #fff;
+	    display: none;
+	}
+	header.falcon ul li {
+	    display: block;
+	    border-bottom: 1px solid #000;
+	    margin: 0;
+	}
+	header.falcon ul li a {
+		padding: 10px 15px;
+		display: block;
+	}
+	header.open ul {
+		display: block;
+	}
+}
+@media screen and (max-width: 576px) {
+	.box1 h1 {
+		font-size: 40px;
+		font-weight: normal;
+	}
+	.main-boxes h2 {
+	    font-size: 16px;
+	}
+	.main-boxes {
+		width: 100%;
+		margin: 10px 0;
+		padding: 0;
+	}
+	.box1 {
+	    padding: 70px 15px 70px 15px;
+	}
+	.coachingStaffMain {
+	    width: 100%;
+	    padding: 0;
+	    margin: 10px 0;
+	}
+	.coachingStaff h1 {
+		font-size: 22px;
+	}
+	.coachees-fstRight h2 {
+	    font-size: 24px;
+	}
+	.coachees-fstRight h4 {
+	    font-size: 18px;
+	    padding: 10px 0 15px 0;
+	}
+	.coachees-fstRight p {
+	    line-height: 22px;
+	    font-size: 16px;
+	}
+	.coached-banner {
+	    width: 100%;
+	    height: 300px;
+	}
+	.coaches-Section {
+	    padding: 110px 15px 40px 15px;
+	}
+	.falcon {
+		padding: 5px 15px;
+	}
+}
