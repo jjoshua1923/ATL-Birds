@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr) minmax(100px, 1fr);
+    grid-template-rows: 200px 200px minmax(100, 1fr) ;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-auto-rows: 200px;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color:lightgray;
+    
+
+}
+
+#bird {
+    margin-left: -60%;
+    height: 50px;
+    margin-bottom: -1%;
+
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.falcon {
+    background-color: white;
+    color: black;
+    text-indent: 600px;
+    word-spacing: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 2;
+     margin-top: 0px;
+}
+
+
+
+.box1 {
+  background-color: gray;
+  grid-column: 1/3;
+  grid-row: 2/4;
+  background-image: url(../dirtybirds/arthur.webp);
+  background-position: 50% 50%;
+  background-size: cover;
+  float:top;
+  bottom: 140px;
+  position: relative;
+  margin-bottom: -100px;
+    
+}
+
+.box2 {
+    
+    grid-row: 5/6;
+    grid-column: 2/3;
+    text-align: center;
+    background-image: url(../dirtybirds/charles.webp);
+    background-size: 200px 200px;
+    clear: left;
+    background-position: 0px 0px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    float:bottom;
+    top: 30px;
+    position: relative;
+
+
+    
+}
+
+   
+.box3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-image:url(../dirtybirds/dean.webp);
+    background-size: 200px 200px;
+    clear: left;
+    background-position: 0px 0px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    float:bottom;
+    top: 30px;
+    position: relative;
+
+    
+    
+}
+
+.box4 {
+    
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-image:url(../dirtybirds/bush.webp);
+    background-size: 200px 200px;
+    background-color: gray;
+    clear: left;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    float:bottom;
+    top: 30px;
+    position: relative;
+
+    
+    
+}
+
+.box5 {
+    grid-column:3/4;
+    grid-row: 2/4;
+    background-color: white;
+    padding-left: 0px;
+    text-align: center;
+    padding-top: -20px;
+    margin-top: -35%;
+    margin-bottom: 40px;
+    font-size: 25px;
+    border: 2px solid black;
+    font-family: 'Antic Didone', serif;
+    
+    
+}
+
+.box6 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    background-image: url(../dirtybirds/dave.webp);
+    background-size: 200px 200px;
+    clear: left;
+    background-position: 0px 0px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    float:bottom;
+    top: 30px;
+    position: relative;
+
+    
+    
+    
+}
+
+.box7 {
+    grid-row: 5/6;
+    grid-column: 3/4;
+    text-align: center;
+    background-color: darkgreen;
+    background-image: url(../dirtybirds/dwayne.webp);
+    background-size: 200px 200px;
+    clear: left;
+    background-position: 0px 0px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    float:bottom;
+    top: 30px;
+    position: relative;
+
+}
+
+.box8 {
+ background-color: crimson;
+ grid-row: 6/7;
+ background-image:url(../dirtybirds/mario.webp);
+ background-size: 200px 200px;
+ clear: left;
+ background-position: 0px 0px;
+ background-color: gray;
+ background-repeat: no-repeat;
+ float:bottom;
+ top: 30px;
+ position: relative;
+
+}
+
+.box9 {
+ background-color: darkgoldenrod;
+ grid-row: 6/7;
+ background-image:url(../dirtybirds/pitre.webp);
+ background-size: 200px 200px;
+ clear: left;
+ background-position: 0px 0px;
+ background-color: gray;
+ background-repeat: no-repeat;
+ float:bottom;
+ top: 30px;
+ position: relative;
+
+}
+
+.box10 {
+ background-color: coral;
+ grid-row: 6/7;
+ background-image:url(../dirtybirds/gary.webp);
+ background-size: 200px 200px;
+ clear: left;
+ background-position: 0px 0px;
+ background-color: gray;
+ background-repeat: no-repeat;
+ float:bottom;
+ top: 30px;
+ position: relative;
+
+ 
+ 
+}
+
+.box11 {
+ grid-row: 4/5;
+ background-color: darkred;
+ background-image: url(../dirtybirds/marquice.webp);
+ background-size: 200px 200px;
+ clear: left;
+ background-position: 0px 0px;
+ background-color: gray;
+ background-repeat: no-repeat;
+ float:bottom;
+ top: 31px;
+ position: relative;
+
+}
+
+#smith {
+    text-align: center;
+}
+
+.dean {
+    text-align: right;
+    padding: 40px;
+}
+
+#dean1 {
+    float: right;
+    bottom: 10px;
+    right:30px;
+    left: 0px;
+    position: relative;
+
+}
+
+.bush {
+    text-align: right;
+    padding: 40px;
+}
+
+#bush1 {
+    float: right;
+    bottom: 10px;
+    right:60px;
+    left: -40px;
+    position: relative;
+
+}
+
+.charles {
+    text-align: right;
+    padding: 30px;
+    padding-top: 40px;
+    
+}
+
+#charles1 {
+    float: right;
+    bottom: -1px;
+    right:70px;
+    left: -40px;
+    position: relative;
+}
+
+.dwayne {
+    text-align: right;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#dwayne1 {
+    float: right;
+    bottom: -1px;
+    right:60px;
+    left: -45px;
+    position: relative;  
+}
+
+.mario {
+    text-align: right;
+    padding: 30px;
+    padding-top:40px;
+}
+
+#mario1 {
+    float: right;
+    bottom: 0px;
+    right:60px;
+    left: 0px;
+    position: relative;  
+}
+
+.pitre {
+text-align: right;
+padding: 40px;
+}
+
+#pitre1 {
+float: right;
+bottom: 10px;
+right:60px;
+left: -40px;
+position: relative; 
+}
+
+.gary {
+ text-align: right;
+ padding: 25px;
+ padding-top: 40px;
+}
+
+#gary1 {
+float: right;
+bottom: 0px;
+right:60px;
+left: -50px;
+position: relative;
+}
+
+.dave {
+text-align: right;
+padding: 40px;
+}
+
+#dave1 {
+float: right;
+bottom: 10px;
+right:60px;
+left: 0px;
+position: relative;
+}
+
+.marquice {
+text-align: right;
+padding: 50px;
+margin-right: -40px;
+padding-top: 40px;
+}
+
+#marquice1 {
+ float: right;
+bottom: 20px;
+right:80px;
+left: -40px;
+position: relative;
+
+
+}
+
+.ultimate {
+ float:bottom;
+ top: 630px;
+ position: relative;
+ left: 450px;
+ font-size: 30px;
+ font-family:'Sora', sans-serif;
+ color: black;
+ margin-bottom: 100px;
+
+}
+
+#coach {
+    color: black;
+    font-weight: bold;
+    padding-top:-5px;
+    
+    
+}
+
+#art {
+    color: black;
+}
+
+#smith {
+    color:#e60000;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+
+    
